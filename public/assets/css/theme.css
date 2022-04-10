@@ -1834,3 +1834,189 @@ a.text-dark:hover, a.text-dark:focus {
   padding-left: 14px !important;
   border-radius: 40px 0 0 40px;
 }
+
+
+
+
+
+.card {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  height: 50%;
+}
+
+
+
+.card-img-wrapper img {
+  transition: 1.5s ease;
+}
+.card:hover .card-img-wrapper img {
+  transform: scale(1.15);
+}
+.card-body .card-title {
+  margin-bottom: calc(50% + 30px);
+  transition: 1.5s ease;
+}
+.card:hover .card-body .card-title {
+  margin-bottom: .75rem;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: #fff;
+  transition: 1.5s ease;
+}
+
+.card:hover .card-body {
+  height: 60%;
+}
+.card:hover .card-content {
+  bottom: 0;
+}
+
+
+
+.card:hover{
+   transform: scale(.99);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.slide{
+
+
+padding-left: 0%;
+padding-right: 0%;
+page-break-inside: auto;
+
+}
+.paid{
+  text-align: right;
+  margin-top: 20px;
+  color: red;
+}
+.paid1{
+  text-align: right;
+  margin-top: 20px;
+  color: green;
+}
+
+
+*:after,
+*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    cursor: default;
+}
+
+
+/*testimonial css*/
+
+
+
+
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #db584e;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+    opacity: .8;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+
+.carousel-item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #db584e;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+

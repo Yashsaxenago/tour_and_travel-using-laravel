@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="../assets/css/bootstrap.css">
 
   <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
 
   <link rel="stylesheet" href="../assets/css/theme.css">
@@ -26,27 +26,7 @@
   <div class="back-to-top"></div>
 
   <header>
-    <div class="topbar">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 text-sm">
-            <div class="site-info">
-              <a href="#"><span class="mai-call text-primary"></span> +00 123 4455 6666</a>
-              <span class="divider">|</span>
-              <a href="#"><span class="mai-mail text-primary"></span> yashald@gmail.com</a>
-            </div>
-          </div>
-          <div class="col-sm-4 text-right text-sm">
-            <div class="social-mini-button">
-              <a href="#"><span class="mai-logo-facebook-f"></span></a>
-              <a href="#"><span class="mai-logo-twitter"></span></a>
-              <a href="#"><span class="mai-logo-dribbble"></span></a>
-              <a href="#"><span class="mai-logo-instagram"></span></a>
-            </div>
-          </div>
-        </div> <!-- .row -->
-      </div> <!-- .container -->
-    </div> <!-- .topbar -->
+    
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
@@ -117,43 +97,16 @@
       <div class="container text-center wow zoomIn">
         <span class="subhead">Let's make your life happier</span>
         <h1 class="display-4">Explore The World</h1>
-        <a href="#" class="btn btn-primary">Let's book</a>
+        <a href="#appo" class="btn btn-primary">Let's book</a>
       </div>
     </div>
   </div>
 
 
-  <div class="bg-light">
-    <div class="page-section py-3 mt-md-n5 custom-index">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-secondary text-white">
-                <span class="mai-chatbubbles-outline"></span>
-              </div>
-              <p><span>Tour</span> Guide</p>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-primary text-white">
-                <span class="mai-shield-checkmark"></span>
-              </div>
-              <p><span>Safely</span>Trekking</p>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-accent text-white">
-                <span class="mai-basket"></span>
-              </div>
-              <p><span>Tour</span>Guide</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- .page-section -->
+  
+
+
+   <!-- .page-section -->
 
     <div class="page-section pb-0">
       <div class="container">
@@ -173,89 +126,114 @@
     </div> <!-- .bg-light -->
   </div> <!-- .bg-light -->
 
-  <div class="page-section">
-    <div class="container">
-      <h1 class="text-center mb-5 wow fadeInUp">Our Packages</h1>
+  <h1 class="text-center wow fadeInUp mt-5">Our Packages</h1>
 
-      <div class="owl-carousel wow fadeInUp" id="doctorSlideshow">
-        <div class="item">
-          <div class="card-doctor">
-            <div class="header">
-              <img src="../assets/img/4.jpg" alt="">
-              <div class="meta">
-                <a href="#"><span class="mai-call"></span></a>
-                <a href="#"><span class="mai-logo-whatsapp"></span></a>
-              </div>
+
+   <!--cards-->
+   <div class="container mt-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/4.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Maldives</h5>
+                            <p class="card-text">No Matter Where In The World You Want To Go, We Can Help Get You There . Book your tickets now.Happy journey.</p>
+                            <a href="#appo" class="btn btn-primary">Book Now</a>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">America</h5>
+                            <p class="card-text">No Matter Where In The World You Want To Go, We Can Help Get You There . Book your tickets now.Happy journey.</p>
+                            <a href="#appo" class="btn btn-primary">Book Now</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Norway</h5>
+                            <p class="card-text">No Matter Where In The World You Want To Go, We Can Help Get You There . Book your tickets now.Happy journey.</p>
+                            <a href="#appo" class="btn btn-primary">Book Now</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">America</h5>
+                            <p class="card-text">No Matter Where In The World You Want To Go, We Can Help Get You There . Book your tickets now.Happy journey.</p>
+                            <a href="#appo" class="btn btn-primary">Book Now</a>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="body">
-              <p class="text-xl mb-0">Maldives</p>
-              <span class="text-sm text-grey">No Matter Where In The World You Want To Go, We Can Help Get You There .</span>
-            </div>
-          </div>
         </div>
-        <div class="item">
-          <div class="card-doctor">
-            <div class="header">
-              <img src="../assets/img/5.jpg" alt="">
-              <div class="meta">
-                <a href="#"><span class="mai-call"></span></a>
-                <a href="#"><span class="mai-logo-whatsapp"></span></a>
-              </div>
+        <!--card 2-->
+        <div class="container mt-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../assets/img/as.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">India</h5>
+
+                                <p class="card-text">No Matter Where In The World You Want To Go, We Can Help Get You There . Book your tickets now.Happy journey.</p>
+                                <a href="#appo" class="btn btn-primary">Book Now</a>
+                               
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../assets/img/6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">China</h5>
+                                <p class="card-text">No Matter Where In The World You Want To Go, We Can Help Get You There . Book your tickets now.Happy journey.</p>
+                                <a href="#appo" class="btn btn-primary">Book Now</a>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../assets/img/5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Italy</h5>
+                                <p class="card-text">No Matter Where In The World You Want To Go, We Can Help Get You There . Book your tickets now.Happy journey.</p>
+                                <a href="#appo" class="btn btn-primary">Book Now</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../assets/img/7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Canda</h5>
+                                <p class="card-text">No Matter Where In The World You Want To Go, We Can Help Get You There . Book your tickets now.Happy journey.</p>
+                                <a href="#appo" class="btn btn-primary">Book Now</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="body">
-              <p class="text-xl mb-0">Australia</p>
-              <span class="text-sm text-grey">No Matter Where In The World You Want To Go, We Can Help Get You There .</span>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="card-doctor">
-            <div class="header">
-              <img src="../assets/img/6.jpg" alt="">
-              <div class="meta">
-                <a href="#"><span class="mai-call"></span></a>
-                <a href="#"><span class="mai-logo-whatsapp"></span></a>
-              </div>
-            </div>
-            <div class="body">
-              <p class="text-xl mb-0">Denmark</p>
-              <span class="text-sm text-grey">No Matter Where In The World You Want To Go, We Can Help Get You There .</span>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="card-doctor">
-            <div class="header">
-              <img src="../assets/img/7.jpg" alt="">
-              <div class="meta">
-                <a href="#"><span class="mai-call"></span></a>
-                <a href="#"><span class="mai-logo-whatsapp"></span></a>
-              </div>
-            </div>
-            <div class="body">
-              <p class="text-xl mb-0">Norway</p>
-              <span class="text-sm text-grey">No Matter Where In The World You Want To Go, We Can Help Get You There .</span>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="card-doctor">
-            <div class="header">
-              <img src="../assets/img/5.jpg" alt="">
-              <div class="meta">
-                <a href="#"><span class="mai-call"></span></a>
-                <a href="#"><span class="mai-logo-whatsapp"></span></a>
-              </div>
-            </div>
-            <div class="body">
-              <p class="text-xl mb-0">America</p>
-              <span class="text-sm text-grey">No Matter Where In The World You Want To Go, We Can Help Get You There .</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   <div class="page-section bg-light">
     <div class="container">
@@ -350,7 +328,7 @@
    <!-- .banner-home -->
 
   <footer class="page-footer">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row px-md-3">
         <div class="col-sm-6 col-lg-3 py-3">
           <h5>Company</h5>
@@ -375,7 +353,7 @@
           <ul class="footer-menu">
             <li><a href="#">Tata</a></li>
             <li><a href="#">Reliance</a></li>
-            <li><a href="#">Adani/a></li>
+            <li><a href="#">Adani</a></li>
           </ul>
         </div>
         <div class="col-sm-6 col-lg-3 py-3">
@@ -410,6 +388,8 @@
 <script src="../assets/vendor/wow/wow.min.js"></script>
 
 <script src="../assets/js/theme.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   
 </body>
 </html>
