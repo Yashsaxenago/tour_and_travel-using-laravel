@@ -32,7 +32,7 @@
       <div class="container">
         <a class="navbar-brand" href="#"><span class="text-primary">Tour &</span>-Travel</a>
 
-        <form action="#">
+        <!--<form action="#">
           <div class="input-group input-navbar">
             <div class="input-group-prepend">
               <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span>
@@ -40,7 +40,7 @@
             <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1">
           </div>
         </form>
-
+-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -238,90 +238,52 @@
   <div class="page-section bg-light">
     <div class="container">
       <h1 class="text-center wow fadeInUp">Top Destinations</h1>
-      <div class="row mt-5">
-        <div class="col-lg-4 py-2 wow zoomIn">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-category">
-                
-              </div>
-              <a href="blog-details.html" class="post-thumb">
-                <img src="../assets/img/4.jpg" alt="">
-              </a>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="blog-details.html">Maldives</a></h5>
-              <div class="site-info">
-                <div class="avatar mr-2">
-                  <div class="avatar-img">
-                    <img src="../assets/img/31.jpg" alt="">
-                  </div>
-                  <span>Yash saxena</span>
-                </div>
-                <span class="mai-time"></span> 1 week ago
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 py-2 wow zoomIn">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-category">
-                
-              </div>
-              <a href="blog-details.html" class="post-thumb">
-                <img src="../assets/img/7.jpg" alt="">
-              </a>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="blog-details.html">Norway</a></h5>
-              <div class="site-info">
-                <div class="avatar mr-2">
-                  <div class="avatar-img">
-                    <img src="../assets/img/32.webp" alt="">
-                  </div>
-                  <span>Adarsh Yadav</span>
-                </div>
-                <span class="mai-time"></span> 4 weeks ago
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 py-2 wow zoomIn">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-category">
-              
-              </div>
-              <a href="blog-details.html" class="post-thumb">
-                <img src="../assets/img/6.jpg" alt="">
-              </a>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="blog-details.html">America</a></h5>
-              <div class="site-info">
-                <div class="avatar mr-2">
-                  <div class="avatar-img">
-                    <img src="../assets/img/33.jpg" alt="">
-                  </div>
-                  <span>Dipika Singh</span>
-                </div>
-                <span class="mai-time"></span> 2 months ago
-              </div>
-            </div>
-          </div>
-        </div>
+      
 
-        <div class="col-12 text-center mt-4 wow zoomIn">
-          <a href="blog.html" class="btn btn-primary">Read More</a>
-        </div>
+      
+   
 
-      </div>
+
+<div class="container mt-5">
+  <div class="card">
+  <ul class="list-unstyled">
+  <li class="media">
+    <img src="../assets/img/xc2.jpg" class="mr-3" alt="...">
+    <div class="media-body mt-5">
+      <h5 class="">Norway</h5>
+      <p>France (French: [fʁɑ̃s] Listen), officially the French Republic (French: République française[12]), is a transcontinental country spanning Western Europe and overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans.[XII] Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea; overseas territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. Due to its several coastal territories, France has the largest exclusive economic zone in the world. France borders Belgium, Luxembourg, Germany, Switzerland, Monaco, Italy, Andorra and Spain in Europe, as well as the Netherlands, Suriname and Brazil in the Americas. Its eighteen integral regions (five of which are overseas) span a combined area of 643,801 km2 (248,573 sq mi) and over 67 million people (as of May 2021).[3] France is a unitary semi-presidential republic with its capital in Paris, the country's largest city and main cultural and commercial centre; other major urban areas include Marseille, Lyon, Toulouse, Lille, Bordeaux, and Nice.</p>
     </div>
+    
+  </li>
+</div>
+<div class="card">
+  <li class="media">
+    <img src="../assets/img/zx1.jpg" class="mr-3" alt="...">
+    <div class="media-body mt-5">
+      <h4 class="mt-0 mb-1">France</h4>
+      <p>France (French: [fʁɑ̃s] Listen), officially the French Republic (French: République française[12]), is a transcontinental country spanning Western Europe and overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans.[XII] Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea; overseas territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. Due to its several coastal territories, France has the largest exclusive economic zone in the world. France borders Belgium, Luxembourg, Germany, Switzerland, Monaco, Italy, Andorra and Spain in Europe, as well as the Netherlands, Suriname and Brazil in the Americas. Its eighteen integral regions (five of which are overseas) span a combined area of 643,801 km2 (248,573 sq mi) and over 67 million people (as of May 2021).[3] France is a unitary semi-presidential republic with its capital in Paris, the country's largest city and main cultural and commercial centre; other major urban areas include Marseille, Lyon, Toulouse, Lille, Bordeaux, and Nice.</p>
+    </div>
+  </li>
+</div>
+<div class="card">
+  <li class="media">
+    <img src="../assets/img/cv2.jpg" class="mr-3" alt="...">
+    <div class="media-body mt-5">
+      <h5 class="mt-0 mb-1">Japan</h5>
+      <p>France (French: [fʁɑ̃s] Listen), officially the French Republic (French: République française[12]), is a transcontinental country spanning Western Europe and overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans.[XII] Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea; overseas territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. Due to its several coastal territories, France has the largest exclusive economic zone in the world. France borders Belgium, Luxembourg, Germany, Switzerland, Monaco, Italy, Andorra and Spain in Europe, as well as the Netherlands, Suriname and Brazil in the Americas. Its eighteen integral regions (five of which are overseas) span a combined area of 643,801 km2 (248,573 sq mi) and over 67 million people (as of May 2021).[3] France is a unitary semi-presidential republic with its capital in Paris, the country's largest city and main cultural and commercial centre; other major urban areas include Marseille, Lyon, Toulouse, Lille, Bordeaux, and Nice.</p>
+    </div>
+  </li>
+</div>
+</ul>
+</div>
+</div>
+
+</div>
   </div> <!-- .page-section -->
 
 
 @include('user.appointment')
+
 
  <!-- .page-section -->
 
